@@ -1,0 +1,19 @@
+/* .container{
+    display: flex;
+    justify-content: center;
+} */
+  
+/* .card{
+    align-items: center;
+    height: 70vh;
+    display: block;
+    width: 40%;
+    margin-top: 20px;
+} */
+.myinp{
+    display: block;
+    padding: 8px;
+}
+.h2{
+    text-align: center;
+}
