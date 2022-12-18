@@ -10,7 +10,7 @@ const Login = () => {
 return (
 
     <div className='container'>
-    <div className='card'>
+    <div className='bard' style={{backgroundImage: 'url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/2048px-Circle-icons-mail.svg.png")'}}>
     <div className='card-body'>
 
     <Formik initialValues={{ email : '', password : ''}} onSubmit= {loginSubmit}> 
@@ -20,15 +20,15 @@ return (
     <h2 className='h2'> Login </h2>
     <hr /> <br />
     <label className='myinp'> Email</label>
-    <input type="email" className="form-control mb-4" name="email" onChange={handleChange} value={values.email} placeholder='abc@xyyz' />
+    <input type="email" className="form-control mb-4" name="email" onChange={handleChange} value={values.email} required placeholder='abc@xyyz' />
     
     <label className='myinp'>PASSWORD</label>
-    <input type="password" className="form-control mb-4" name="password" onChange={handleChange} value={values.password} placeholder='abc1V123' />
-
-    <button className='btn btn-success w-100 mt-4'> Login </button>
+    <input type="password" className="form-control mb-4" name="password" onChange={handleChange} value={values.password} required placeholder='abc1V123' />
+    <br />
+    <button className='button'> Login </button>
     </form>
 
-      )
+    )
     }
     </Formik>
     </div>

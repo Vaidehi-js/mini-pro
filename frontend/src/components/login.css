@@ -3,17 +3,32 @@
     justify-content: center;
 } */
   
-/* .card{
-    align-items: center;
-    height: 70vh;
-    display: block;
-    width: 40%;
-    margin-top: 20px;
-} */
+ .bard{
+align-items: center;
+height: 70vh;
+display: block;
+width: 40%;
+margin-top: 20px;
+margin-left: 350px;
+}
 .myinp{
-    display: block;
-    padding: 8px;
+display: block;
+padding: 8px;
 }
 .h2{
-    text-align: center;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.button{
+background-color:rgb(21, 159, 189);
+text-align: center;
+color: rgb(255, 254, 254);
+padding: 7px;
+border-radius: 5px;
+width: 100%;
+margin-top: 10px;
+border-color: aliceblue;
+
 }

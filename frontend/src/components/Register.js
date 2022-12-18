@@ -51,7 +51,7 @@ const Register = () => {
           </div>
           <div className="col-md-6">
             <div className="card-body">
-              <h1 className="welc">WELCOME</h1> <hr />
+              <h1 className="welc">New Here?</h1>  <hr />
               <h3 className="log">Sign-up below</h3>
               <Formik initialValues={{ Username: "", email: "", password: "" }} onSubmit={userSubmit}>
                 {({ values, handleChange, handleSubmit }) => (
@@ -65,8 +65,8 @@ const Register = () => {
                       required
                     />
                     <label>EMAIL</label>
-                    <input
-                      className="form-control mb-4"
+                    <input type={"email"}
+                      className="form-control mb-4" 
                       name="email"
                       onChange={handleChange}
                       value={values.email}
@@ -92,9 +92,10 @@ const Register = () => {
                   </form>
                 )}
               </Formik>
-              <p style={{ textAlign: "center", paddingTop: 40 }}>
-                New User?
-                <Link to={"/Login"}>Sign in</Link>
+              <p style={{ textAlign: "center", paddingTop: 40 }}> or </p>
+              <p style={{ textAlign: "center"}}>
+              Already a member?
+              <Link to={"/Login"}>Sign in</Link>
               </p>
             </div>
           </div>
