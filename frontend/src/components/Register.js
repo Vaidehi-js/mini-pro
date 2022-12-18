@@ -53,7 +53,7 @@ const Register = () => {
             <div className="card-body">
               <h1 className="welc">WELCOME</h1> <hr />
               <h3 className="log">Sign-up below</h3>
-              <Formik initialValues={{ Username: "", email: "", password: "" }}>
+              <Formik initialValues={{ Username: "", email: "", password: "" }} onSubmit={userSubmit}>
                 {({ values, handleChange, handleSubmit }) => (
                   <form onSubmit={handleSubmit}>
                     <label>Username</label>
