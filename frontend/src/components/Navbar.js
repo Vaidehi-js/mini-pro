@@ -26,11 +26,10 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         {/* Navbar brand */}
         <Link className="navbar-brand mt-2 mt-lg-0" to= { "/Home" }>
-          <img
-            src="https://media.istockphoto.com/id/1168518509/vector/email-marketing.jpg?s=612x612&w=0&k=20&c=1b3Ek3YbdAdPmW-KjeznqphxTLB-4NT1vK6bwfRcnI4="
-            height={45}
-            alt="Newsletter"
-            loading="lazy"/>
+          <img src="https://media.istockphoto.com/id/1168518509/vector/email-marketing.jpg?s=612x612&w=0&k=20&c=1b3Ek3YbdAdPmW-KjeznqphxTLB-4NT1vK6bwfRcnI4=" style={{ paddingInlineStart: 24}}
+          height={55} 
+          alt="Newsletter" 
+          loading="lazy"/>
         </Link>
         {/* Left links */}
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">

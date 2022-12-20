@@ -6,6 +6,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import Dashboard from './components/Dashboard';
 import Plugin from './components/Plugin';
+import Home from './components/Home';
 
 
 
@@ -15,6 +16,7 @@ function App() {
      <BrowserRouter>
      <Navbar></Navbar>
       <Routes>
+        <Route element = {< Home/>} path = "Home"/>
         <Route element = {< Login/>} path = "Login"/>
         <Route element = {< Register/>} path ="register" />
         <Route element= {< Dashboard/>} path = "dashboard" />
